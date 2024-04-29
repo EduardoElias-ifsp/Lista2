@@ -19,10 +19,10 @@ namespace Lista2ex2
             v2 = int.Parse(Console.ReadLine());
 
             if (v1 > v2)
-            Console.WriteLine("O primeiro valor é maior = {0}",v1);
+                Console.WriteLine("O primeiro valor é maior = {0}",v1);
             else
                 if(v1 < v2)
-                Console.WriteLine("O segundo valor é maior = {0}",v2);
+                    Console.WriteLine("O segundo valor é maior = {0}",v2);
                 else
                     Console.WriteLine("Os valores são iguais");
 
