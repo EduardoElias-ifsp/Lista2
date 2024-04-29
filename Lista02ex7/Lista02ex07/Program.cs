@@ -24,24 +24,15 @@ namespace Lista02ex07
             lado3 = int.Parse(Console.ReadLine());
 
             if ((lado1 + lado2 > lado3) && (lado1 + lado3 > lado2) && (lado2 + lado3 > lado1))
-            {
                 if (lado1 == lado2 && lado1 == lado3)
-                {
                     Console.WriteLine("Triângulo Equilátero");
-                }
-                else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3)
-                {
-                    Console.WriteLine("Triângulo Isósceles");
-                }
                 else
-                {
+                    if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3)
+                    Console.WriteLine("Triângulo Isósceles");
+                else
                     Console.WriteLine("Triângulo Escaleno");
-                }
-            }
             else
-            {
                 Console.WriteLine("Não forma um triângulo.");
-            }
         }
     }
 }
