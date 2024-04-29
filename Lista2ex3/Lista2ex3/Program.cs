@@ -24,12 +24,12 @@ namespace Lista2ex3
             v3 = int.Parse(Console.ReadLine());
 
             if (v1 > v2 && v1 > v3)
-                Console.WriteLine("O primeiro valor é o Maior = {0}",v1);
+                Console.WriteLine("O primeiro valor é o Maior = {0}", v1);
+            else
             if (v2 > v1 && v2 > v3)
-                Console.WriteLine("O segundo valor é o Maior = {0}",v2);
-            if (v3 > v1 && v3 > v2)
+                Console.WriteLine("O segundo valor é o Maior = {0}", v2);
+            else 
                 Console.WriteLine("O terceiro valor é o Maior = {0}", v3);
-
 
         }
     }
