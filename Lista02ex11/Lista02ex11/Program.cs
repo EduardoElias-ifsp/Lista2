@@ -13,12 +13,12 @@ namespace Lista02ex11
             double p1;
             double p2;
 
-            Console.WriteLine("Digite a nota da primeira avaliação (P1):");
+            Console.WriteLine("Digite a nota da primeira avaliação: ");
             p1 = double.Parse(Console.ReadLine());
-           
-            p2 = (3 * 5 - p1) / 2;
 
-            Console.WriteLine($"O aluno precisa tirar {p2:f2} na segunda avaliação (P2) para ser aprovado.");
+            p2 = ((3 * 5) - p1) / 2;
+
+            Console.WriteLine("O aluno precisa tirar {0} na segunda avaliação para ser aprovado", p2);
         }
     }
 }
